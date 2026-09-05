@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Inter:wght@400;600&display=swap');
+
+:root {
+    --color-primary: #1B3A5C;
+    --color-primary-dark: #16324F;
+    --color-accent: #F0A500;
+    --color-bg: #F5F7FA;
+    --color-card: #FFFFFF;
+    --color-text: #2D2D2D;
+    --color-text-light: #CBD5E0;
+    --color-link: #1B6CA8;
+    --color-border: #E2E8F0;
+    --shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    --radius: 8px;
+    --font-heading: 'Merriweather', serif;
+    --font-body: 'Inter', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--color-primary);
+    color: white;
+    text-align: center;
+    padding: 1.25rem 1rem 0;
+}
+
+header span {
+    display: block;
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-text-light);
+    margin-bottom: 0.25rem;
+}
+
+header h1 {
+    font-family: var(--font-heading);
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 1.25rem;
+}
+
+nav {
+    background-color: var(--color-primary-dark);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.75rem 1.5rem;
+    color: var(--color-text-light);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    border-bottom: 3px solid transparent;
+    transition: color 0.25s ease, border-bottom-color 0.25s ease;
+}
+
+nav ul li a:hover {
+    color: var(--color-accent);
+    border-bottom-color: var(--color-accent);
+}
+
+.main-container {
+    max-width: 900px;
+    margin: 2.5rem auto;
+    padding: 0 1.25rem;
+}
+
+.page-title {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    text-align: center;
+    color: var(--color-text);
+    margin-bottom: 2rem;
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1.5rem;
+    align-items: start;
+}
+
+.card {
+    background-color: var(--color-card);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: var(--color-primary);
+    color: white;
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.85rem 1rem;
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+.about-top {
+    display: flex;
+    gap: 1.25rem;
+    align-items: flex-start;
+    margin-bottom: 1.25rem;
+}
+
+.about-top p {
+    flex: 1;
+    font-size: 0.95rem;
+}
+
+.profile-img {
+    width: 110px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 4px;
+    flex-shrink: 0;
+}
+
+.about-location {
+    border-top: 1px solid var(--color-border);
+    padding-top: 1rem;
+}
+
+.about-location h3 {
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: var(--color-text);
+}
+
+.location-details {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.location-details p {
+    flex: 1;
+    font-size: 0.9rem;
+}
+
+figure {
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.flag-img {
+    width: 110px;
+    border: 1px solid var(--color-border);
+    border-radius: 2px;
+    display: block;
+}
+
+figcaption {
+    font-size: 0.75rem;
+    color: #718096;
+    font-style: italic;
+    margin-top: 0.4rem;
+    max-width: 110px;
+}
+
+.resources-list {
+    list-style: disc;
+    padding-left: 1.25rem;
+}
+
+.resources-list li {
+    margin-bottom: 0.6rem;
+}
+
+.resources-list li a {
+    color: var(--color-link);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s ease;
+}
+
+.resources-list li a:hover {
+    color: var(--color-accent);
+    text-decoration: underline;
+}
+
+footer {
+    background-color: var(--color-primary);
+    color: var(--color-text-light);
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    font-size: 0.9rem;
+    margin-bottom: 0.35rem;
+}
+
+#lastModified {
+    color: var(--color-accent);
+    font-size: 0.8rem;
+}
