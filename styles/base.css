@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Inter:wght@400;600&display=swap');
+
 
 :root {
     --color-primary: #1B3A5C;
@@ -36,23 +36,13 @@ header {
     padding: 1.25rem 1rem 0;
 }
 
-header span {
+#course-title {
     display: block;
-    font-family: var(--font-body);
-    font-size: 0.85rem;
-    font-weight: 600;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--color-text-light);
-    margin-bottom: 0.25rem;
-}
-
-header h1 {
     font-family: var(--font-heading);
-    font-size: 1.4rem;
+    font-size: 1.35rem;
     font-weight: 700;
     color: white;
-    margin-bottom: 1.25rem;
+    padding: 1rem 0 1.25rem;
 }
 
 nav {
@@ -84,7 +74,7 @@ nav ul li a:hover {
     border-bottom-color: var(--color-accent);
 }
 
-.main-container {
+main {
     max-width: 900px;
     margin: 2.5rem auto;
     padding: 0 1.25rem;
@@ -150,7 +140,7 @@ nav ul li a:hover {
     padding-top: 1rem;
 }
 
-.about-location h3 {
+.about-location h2 {
     font-family: var(--font-heading);
     font-size: 1rem;
     text-align: center;

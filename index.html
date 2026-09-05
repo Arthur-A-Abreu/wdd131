@@ -6,14 +6,15 @@
     <title>WDD 131 – Dynamic Web Fundamentals – Arthur Abreu</title>
     <meta name="description" content="This is the index page for WDD 131 – Dynamic Web Fundamentals.">
     <meta name="author" content="Arthur Abreu">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/base.css">
     <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
     <header>
-        <span>WDD 131</span>
-        <h1>Dynamic Web Fundamentals</h1>
+        <span id="course-title">WDD 131: Dynamic Web Fundamentals</span>
         <nav>
             <ul>
                 <li><a href="https://www.linkedin.com/in/arthur-auday-adreu/">LinkedIn</a></li>
@@ -25,10 +26,10 @@
     </header>
 
     <main class="main-container">
-        <h2 class="page-title">Arthur Abreu</h2>
+        <h1 class="page-title">Arthur Abreu</h1>
 
         <div class="cards-grid">
-            <div class="card">
+            <section class="card">
                 <div class="card-header">About Me</div>
                 <div class="card-body">
                     <div class="about-top">
@@ -36,7 +37,7 @@
                         <img src="images/profile.jpg" alt="A picture of Arthur Abreu" class="profile-img">
                     </div>
                     <div class="about-location">
-                        <h3>Espírito Santo – Brazil</h3>
+                        <h2>Espírito Santo – Brazil</h2>
                         <div class="location-details">
                             <figure>
                                 <img src="images/brazil.png" alt="Flag of Brazil" class="flag-img">
@@ -46,9 +47,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div class="card">
+            <section class="card">
                 <div class="card-header">Web Dev Resources</div>
                 <div class="card-body">
                     <ul class="resources-list">
@@ -60,12 +61,12 @@
                         <li><a href="https://picsum.photos/">Lorem Picsum Image Placeholder</a></li>
                     </ul>
                 </div>
-            </div>
+            </section>
         </div>
     </main>
 
     <footer>
-        <p id="copyright"></p>
+        <p>© <span id="copyright-year"></span> Arthur Abreu. All rights reserved.</p>
         <p id="lastModified"></p>
     </footer>
 </body>
