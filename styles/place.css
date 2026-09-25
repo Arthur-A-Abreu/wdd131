@@ -1,0 +1,125 @@
+:root {
+    --primary-color: #8B0000; /* Dark Red, autumn theme */
+    --secondary-color: #f4e8e1; /* Soft beige */
+    --text-color: #333;
+    --background-color: #fff;
+    --font-heading: 'Merriweather', serif;
+    --font-body: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.5;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-container picture {
+    width: 100%;
+}
+
+.hero-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.data-card, .weather-card {
+    background-color: var(--secondary-color);
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.data-card h2, .weather-card h2 {
+    font-family: var(--font-heading);
+    margin-bottom: 10px;
+    text-align: center;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 10px;
+}
+
+.weather-icon-mobile {
+    vertical-align: middle;
+    width: 12px;
+    height: 12px;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+dt {
+    font-weight: bold;
+    text-align: right;
+}
+
+dd {
+    text-align: left;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+@media (min-width: 768px) {
+    .hero-container {
+        position: relative;
+    }
+
+    .data-card {
+        position: absolute;
+        top: 40px;
+        left: 40px;
+        margin: 0;
+        background-color: rgba(244, 232, 225, 0.9);
+        width: 300px;
+    }
+
+    .weather-card {
+        position: absolute;
+        bottom: 40px;
+        right: 40px;
+        margin: 0;
+        background-color: rgba(244, 232, 225, 0.9);
+        width: 300px;
+    }
+
+
+}

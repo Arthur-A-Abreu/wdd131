@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyoto, Japan - WDD 131</title>
+    <meta name="description" content="Information and weather about Kyoto, Japan for WDD 131 assignment.">
+    <meta name="author" content="Arthur">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Kyoto, Japan</h1>
+    </header>
+    <main>
+        <div class="hero-container">
+            <picture>
+                <source srcset="images/kyoto-large.jpg" media="(min-width: 768px)">
+                <img src="images/kyoto-small.jpg" alt="Beautiful landscape of Kyoto in autumn" width="800" height="800" loading="lazy">
+            </picture>
+            
+            <section class="data-card">
+                <h2>Data</h2>
+                <dl>
+                    <dt>Area:</dt><dd>828 km²</dd>
+                    <dt>Population:</dt><dd>1,475,000</dd>
+                    <dt>Region:</dt><dd>Kansai</dd>
+                    <dt>Language:</dt><dd>Japanese</dd>
+                    <dt>Currency:</dt><dd>Yen (JPY)</dd>
+                    <dt>Time Zone:</dt><dd>UTC+9</dd>
+                </dl>
+            </section>
+            
+            <section class="weather-card">
+                <h2>Weather ⛅</h2>
+                <dl>
+                    <dt>Temperature:</dt><dd><span id="temperature">8</span> °C</dd>
+                    <dt>Conditions:</dt><dd>Partly Cloudy</dd>
+                    <dt>Wind:</dt><dd><span id="windspeed">10</span> km/h</dd>
+                    <dt>Wind Chill:</dt><dd><span id="windchill"></span></dd>
+                </dl>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Arthur Abreu</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
