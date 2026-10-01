@@ -19,7 +19,7 @@ if (lastModifiedP) {
     lastModifiedP.textContent = `Last Modified: ${document.lastModified}`;
 }
 
-// Array of Temple Objects (7 original + 3 additional)
+// Array of Temple Objects (7 original + 2 additional)
 const temples = [
     {
         templeName: "Aba Nigeria",
@@ -76,13 +76,6 @@ const temples = [
         dedicated: "1893, April, 6",
         area: 253015,
         imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/salt-lake-temple/salt-lake-temple-15669-main.jpg"
-    },
-    {
-        templeName: "St. George Utah",
-        location: "St. George, Utah, United States",
-        dedicated: "1877, April, 6",
-        area: 143969,
-        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/st.-george-utah-temple/st.-george-utah-temple-40435-main.jpg"
     },
     {
         templeName: "Campinas Brazil",
