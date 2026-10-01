@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #8B0000; /* Dark Red, autumn theme */
-    --secondary-color: #f4e8e1; /* Soft beige */
+    --primary-color: #8B0000; 
+    --secondary-color: #f4e8e1; 
     --text-color: #333;
     --background-color: #fff;
     --font-heading: 'Merriweather', serif;

@@ -1,0 +1,44 @@
+@media (min-width: 38em) {
+    header {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+    }
+
+    .site-title {
+        margin-bottom: 0;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    nav,
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        margin-top: 0;
+        gap: 0.5rem;
+    }
+
+    .navigation a {
+        border-top: none;
+        border-radius: 4px;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
+
+    .navigation a.active {
+        border-left: none;
+        background-color: var(--primary-dark);
+        color: #ffffff;
+        border-bottom: 3px solid var(--accent-color);
+    }
+
+    .res-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+}
