@@ -19,7 +19,6 @@ if (lastModifiedP) {
     lastModifiedP.textContent = `Last Modified: ${document.lastModified}`;
 }
 
-// Array of Temple Objects (7 original + 2 additional)
 const temples = [
     {
         templeName: "Aba Nigeria",
@@ -86,11 +85,9 @@ const temples = [
     }
 ];
 
-// Reference to temple cards container and heading
 const templeContainer = document.querySelector('#temple-cards');
 const pageTitle = document.querySelector('#page-title');
 
-// Function to create and render temple cards
 function createTempleCards(templeList) {
     if (!templeContainer) return;
     
@@ -129,21 +126,18 @@ function createTempleCards(templeList) {
     });
 }
 
-// Navigation links and filtering logic
 const navLinks = document.querySelectorAll('.navigation a');
 
 function setActiveLink(clickedLink) {
     navLinks.forEach(link => link.classList.remove('active'));
     clickedLink.classList.add('active');
     
-    // Auto-close mobile menu on selection if open
     if (mainnav && hambutton && mainnav.classList.contains('open')) {
         mainnav.classList.remove('open');
         hambutton.classList.remove('open');
     }
 }
 
-// Filter Event Listeners
 const homeLink = document.querySelector('#home-link');
 const oldLink = document.querySelector('#old-link');
 const newLink = document.querySelector('#new-link');
@@ -164,7 +158,7 @@ if (oldLink) {
         e.preventDefault();
         pageTitle.textContent = 'Old Temples';
         setActiveLink(oldLink);
-        // Temples built before 1900
+
         const filtered = temples.filter(temple => {
             const year = parseInt(temple.dedicated.split(',')[0], 10);
             return year < 1900;
@@ -178,7 +172,7 @@ if (newLink) {
         e.preventDefault();
         pageTitle.textContent = 'New Temples';
         setActiveLink(newLink);
-        // Temples built after 2000
+
         const filtered = temples.filter(temple => {
             const year = parseInt(temple.dedicated.split(',')[0], 10);
             return year > 2000;
@@ -192,7 +186,6 @@ if (largeLink) {
         e.preventDefault();
         pageTitle.textContent = 'Large Temples';
         setActiveLink(largeLink);
-        // Temples larger than 90,000 sq ft
         const filtered = temples.filter(temple => temple.area > 90000);
         createTempleCards(filtered);
     });
@@ -203,11 +196,9 @@ if (smallLink) {
         e.preventDefault();
         pageTitle.textContent = 'Small Temples';
         setActiveLink(smallLink);
-        // Temples smaller than 10,000 sq ft
         const filtered = temples.filter(temple => temple.area < 10000);
         createTempleCards(filtered);
     });
 }
 
-// Initial render showing all temples
 createTempleCards(temples);

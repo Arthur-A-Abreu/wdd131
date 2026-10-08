@@ -1,4 +1,3 @@
-// Array of product objects
 const products = [
     {
         id: "fc-1888",
@@ -27,7 +26,6 @@ const products = [
     }
 ];
 
-// Populate Product Name Select Options dynamically
 document.addEventListener("DOMContentLoaded", () => {
     const productSelect = document.getElementById("product");
 
@@ -40,7 +38,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    // Dynamic Footer Information
     const currentYearSpan = document.getElementById("currentyear");
     if (currentYearSpan) {
         currentYearSpan.textContent = new Date().getFullYear();

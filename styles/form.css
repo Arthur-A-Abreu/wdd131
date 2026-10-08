@@ -56,7 +56,6 @@ main {
     width: 100%;
 }
 
-/* Form Container */
 .form-card {
     background-color: var(--bg-card);
     width: 100%;
@@ -73,7 +72,6 @@ main {
     gap: 1.25rem;
 }
 
-/* Form Groups */
 .form-group {
     display: flex;
     flex-direction: column;
@@ -108,7 +106,6 @@ label, legend {
     margin-top: 0.15rem;
 }
 
-/* Form Inputs */
 select,
 input[type="date"],
 input[type="text"],
@@ -138,14 +135,12 @@ textarea {
     min-height: 100px;
 }
 
-/* Fieldset reset */
 fieldset {
     border: none;
     padding: 0;
     margin: 0;
 }
 
-/* Rating Fieldset */
 .rating-group legend {
     margin-bottom: 0.5rem;
 }
@@ -183,7 +178,6 @@ fieldset {
     accent-color: var(--primary-color);
 }
 
-/* Features Checkbox Group */
 .checkbox-group legend {
     margin-bottom: 0.35rem;
 }
@@ -215,7 +209,6 @@ fieldset {
     color: var(--text-color);
 }
 
-/* Submit Button */
 .submit-btn {
     width: 100%;
     padding: 0.75rem 1rem;
@@ -241,7 +234,6 @@ fieldset {
     transform: translateY(1px);
 }
 
-/* Review Confirmation Page */
 .confirmation-card {
     background-color: var(--bg-card);
     width: 100%;
@@ -293,7 +285,6 @@ fieldset {
     transform: translateY(-1px);
 }
 
-/* Footer */
 footer {
     background-color: var(--primary-color);
     color: #ffffff;
@@ -312,7 +303,6 @@ footer p {
     font-size: 0.85rem;
 }
 
-/* Responsive adjustments */
 @media (max-width: 480px) {
     header h1 {
         font-size: 1.5rem;

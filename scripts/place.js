@@ -1,9 +1,7 @@
-// Footer dates
 const currentYear = new Date().getFullYear();
 document.getElementById('currentyear').textContent = currentYear;
 document.getElementById('lastModified').textContent = "Last Modification: " + document.lastModified;
 
-// Wind chill calculation
 const tempSpan = document.getElementById('temperature');
 const windSpan = document.getElementById('windspeed');
 const windChillSpan = document.getElementById('windchill');
