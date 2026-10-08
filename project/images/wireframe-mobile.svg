@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 820" width="100%" height="auto" style="background:#f8fafc; font-family:sans-serif; border:1px solid #cbd5e1; border-radius:8px;">
+  <!-- Phone Frame Header -->
+  <rect x="0" y="0" width="360" height="50" fill="#1e3a2f" />
+  <text x="20" y="32" fill="#ffffff" font-size="16" font-weight="bold">[Logo] TrailPeak</text>
+  <rect x="310" y="16" width="30" height="20" rx="3" fill="#d97706" />
+  <line x1="316" y1="21" x2="334" y2="21" stroke="#ffffff" stroke-width="2" />
+  <line x1="316" y1="26" x2="334" y2="26" stroke="#ffffff" stroke-width="2" />
+  <line x1="316" y1="31" x2="334" y2="31" stroke="#ffffff" stroke-width="2" />
+
+  <!-- Hero Section -->
+  <rect x="15" y="65" width="330" height="150" rx="6" fill="#e2e8f0" stroke="#94a3b8" stroke-dasharray="4" />
+  <text x="180" y="125" text-anchor="middle" fill="#475569" font-size="14" font-weight="bold">[Hero Banner Image / Slider]</text>
+  <rect x="90" y="145" width="180" height="30" rx="4" fill="#d97706" />
+  <text x="180" y="165" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="bold">Explore Trails (CTA Button)</text>
+
+  <!-- Filter & Search Bar -->
+  <rect x="15" y="230" width="330" height="40" rx="4" fill="#ffffff" stroke="#cbd5e1" />
+  <text x="30" y="255" fill="#64748b" font-size="12">[Search Trail by Name or Difficulty...]</text>
+
+  <!-- Section 1: Featured Trails -->
+  <text x="20" y="295" fill="#1e3a2f" font-size="14" font-weight="bold">Featured Trails (Card Grid)</text>
+  
+  <!-- Trail Card 1 -->
+  <rect x="15" y="310" width="330" height="95" rx="6" fill="#ffffff" stroke="#cbd5e1" />
+  <rect x="25" y="320" width="75" height="75" rx="4" fill="#cbd5e1" />
+  <text x="62" y="362" text-anchor="middle" fill="#64748b" font-size="10">[Image]</text>
+  <text x="115" y="340" fill="#1e3a2f" font-size="13" font-weight="bold">Eagle Crest Summit</text>
+  <text x="115" y="358" fill="#64748b" font-size="11">Diff: Moderate | 7.5 miles</text>
+  <rect x="115" y="370" width="80" height="20" rx="3" fill="#1e3a2f" />
+  <text x="155" y="384" text-anchor="middle" fill="#ffffff" font-size="10">View Trail</text>
+
+  <!-- Trail Card 2 -->
+  <rect x="15" y="415" width="330" height="95" rx="6" fill="#ffffff" stroke="#cbd5e1" />
+  <rect x="25" y="425" width="75" height="75" rx="4" fill="#cbd5e1" />
+  <text x="62" y="467" text-anchor="middle" fill="#64748b" font-size="10">[Image]</text>
+  <text x="115" y="445" fill="#1e3a2f" font-size="13" font-weight="bold">Whispering Pines Loop</text>
+  <text x="115" y="463" fill="#64748b" font-size="11">Diff: Easy | 3.2 miles</text>
+  <rect x="115" y="475" width="80" height="20" rx="3" fill="#1e3a2f" />
+  <text x="155" y="489" text-anchor="middle" fill="#ffffff" font-size="10">View Trail</text>
+
+  <!-- Section 2: Quick Weather & Trail Tips -->
+  <text x="20" y="535" fill="#1e3a2f" font-size="14" font-weight="bold">Live Weather &amp; Trail Condition</text>
+  <rect x="15" y="548" width="330" height="80" rx="6" fill="#ffffff" stroke="#cbd5e1" />
+  <text x="30" y="575" fill="#334155" font-size="12">[Dynamic Weather Widget: Temp / Wind / Status]</text>
+  <text x="30" y="600" fill="#d97706" font-size="11">Status: Open &amp; Safe for Hiking</text>
+
+  <!-- Section 3: Newsletter / Inquiry Form Teaser -->
+  <text x="20" y="650" fill="#1e3a2f" font-size="14" font-weight="bold">Join Adventure Newsletter</text>
+  <rect x="15" y="662" width="330" height="75" rx="6" fill="#ffffff" stroke="#cbd5e1" />
+  <rect x="25" y="675" width="200" height="30" rx="3" fill="#f1f5f9" stroke="#cbd5e1" />
+  <text x="35" y="694" fill="#94a3b8" font-size="11">Enter your email...</text>
+  <rect x="235" y="675" width="100" height="30" rx="3" fill="#d97706" />
+  <text x="285" y="694" text-anchor="middle" fill="#ffffff" font-size="11" font-weight="bold">Subscribe</text>
+
+  <!-- Footer -->
+  <rect x="0" y="755" width="360" height="65" fill="#1e3a2f" />
+  <text x="180" y="780" text-anchor="middle" fill="#ffffff" font-size="11">© 2026 TrailPeak Adventures | Arthur Abreu</text>
+  <text x="180" y="800" text-anchor="middle" fill="#94a3b8" font-size="10">Site Plan | References | Contact</text>
+</svg>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Plan: TrailPeak Adventures - WDD 131</title>
+    <meta name="description" content="Website planning document for the TrailPeak Adventures final project in WDD 131.">
+    <meta name="author" content="Arthur A. Abreu">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/siteplan.css">
+    <script src="scripts/siteplan.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>TrailPeak Adventures</h1>
+        <p>Website Planning Document &amp; Architectural Blueprint</p>
+    </header>
+
+    <main>
+        <!-- 1. Site Name -->
+        <section id="site-name">
+            <h2>Site Name</h2>
+            <p><strong>TrailPeak Adventures</strong></p>
+            <p>
+                <strong>Reason for Selection:</strong> I chose the name "TrailPeak Adventures" because it immediately conveys an outdoor, active, and inspiring mountain expedition brand. The word "Trail" relates to hiking routes, trails, and paths for all skill levels, while "Peak" evokes reaching summits, personal achievement, and scenic viewpoints. It represents a welcoming and authoritative digital hub for hikers, trekkers, and nature explorers.
+            </p>
+            <p><em>Optional Domain Availability:</em> <code>trailpeak-adventures.org</code></p>
+        </section>
+
+        <!-- 2. Site Purpose -->
+        <section id="site-purpose">
+            <h2>Site Purpose</h2>
+            <p>
+                The primary purpose of <strong>TrailPeak Adventures</strong> is to empower outdoor enthusiasts with reliable trail guides, interactive discovery tools, and preparation resources. The website will provide:
+            </p>
+            <ul>
+                <li><strong>Dynamic Trail Directory:</strong> An interactive catalog of curated hiking trails searchable and filterable by difficulty (Easy, Moderate, Strenuous), distance, and elevation gain.</li>
+                <li><strong>Gear &amp; Preparation Guides:</strong> Essential packing lists, safety tips, and gear recommendations categorized by season and hike duration, featuring an interactive checklist tool.</li>
+                <li><strong>Community &amp; Trip Planning:</strong> A responsive trip inquiry and feedback form where visitors can request guided excursions, share recent trail conditions, and save their favorite routes using browser storage.</li>
+            </ul>
+        </section>
+
+        <!-- 3. Target Audience Scenarios -->
+        <section id="scenarios">
+            <h2>Scenarios</h2>
+            <p>The following scenario questions represent the core needs and inquiries of our target audience visitors:</p>
+            <ul>
+                <li><strong>Scenario 1:</strong> <em>"What are the best beginner-friendly hiking trails with panoramic summit views that I can complete in under 3 hours?"</em></li>
+                <li><strong>Scenario 2:</strong> <em>"What essential safety gear, clothing layers, and hydration equipment do I need to pack for a high-altitude weekend trek?"</em></li>
+                <li><strong>Scenario 3:</strong> <em>"How can I submit an inquiry for a guided group mountain expedition or report current trail conditions?"</em></li>
+                <li><strong>Scenario 4:</strong> <em>"How do I filter trails by elevation gain and difficulty rating so I can train progressively?"</em></li>
+            </ul>
+        </section>
+
+        <!-- 4. Color Schema -->
+        <section id="color-schema">
+            <h2>Color Schema</h2>
+            <p>
+                The color scheme is inspired by mountain forests, rocky peaks, and sunset horizons, establishing a balanced, outdoor-themed aesthetic that meets WCAG AA contrast standards.
+            </p>
+            
+            <div class="color-palette-grid">
+                <!-- Primary Color -->
+                <div class="color-card">
+                    <div class="color-swatch swatch-primary">#1E3A2F</div>
+                    <div class="color-info">
+                        <h4>Deep Forest Green</h4>
+                        <p><strong>Primary Color:</strong> Used for header background, main headings (<code>h1</code>, <code>h2</code>), primary buttons, and footer.</p>
+                    </div>
+                </div>
+
+                <!-- Secondary Color -->
+                <div class="color-card">
+                    <div class="color-swatch swatch-secondary">#2D5A47</div>
+                    <div class="color-info">
+                        <h4>Mountain Moss Green</h4>
+                        <p><strong>Secondary Color:</strong> Used for subheadings (<code>h3</code>), card outlines, and secondary navigational elements.</p>
+                    </div>
+                </div>
+
+                <!-- Accent Color -->
+                <div class="color-card">
+                    <div class="color-swatch swatch-accent">#D97706</div>
+                    <div class="color-info">
+                        <h4>Sunset Amber Gold</h4>
+                        <p><strong>Accent Color:</strong> Used for Call-to-Action (CTA) buttons, active links, highlight borders, and badges.</p>
+                    </div>
+                </div>
+
+                <!-- Background Color -->
+                <div class="color-card">
+                    <div class="color-swatch swatch-bg">#F4F7F4</div>
+                    <div class="color-info">
+                        <h4>Alpine Mist</h4>
+                        <p><strong>Page Background:</strong> Used for page background color to provide a clean, soft canvas with high text contrast.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Typography -->
+        <section id="typography">
+            <h2>Typography</h2>
+            <p>
+                Two carefully paired Google Fonts are selected to ensure optimal readability, modern aesthetics, and strong visual hierarchy across all devices:
+            </p>
+
+            <h3>1. Montserrat (Sans-serif)</h3>
+            <p>
+                <strong>Application:</strong> Used for all page titles, section headings (<code>h1</code>, <code>h2</code>, <code>h3</code>, <code>h4</code>), navigation links, and prominent buttons.
+            </p>
+            <div class="typography-sample">
+                <p class="font-heading-sample">Montserrat Bold: Discover Your Next Mountain Summit</p>
+            </div>
+
+            <h3>2. Open Sans (Sans-serif)</h3>
+            <p>
+                <strong>Application:</strong> Used for all body paragraphs, trail descriptions, lists, tables, captions, and form inputs.
+            </p>
+            <div class="typography-sample">
+                <p class="font-body-sample">Open Sans Regular: Hiking through alpine forests connects adventurers with nature while building physical endurance and outdoor confidence. Every trail offers unique vistas, elevation profiles, and memorable milestones.</p>
+            </div>
+        </section>
+
+        <!-- 6. Wireframes -->
+        <section id="wireframes">
+            <h2>Wireframes</h2>
+            <p>
+                Below are the layout wireframe sketches for the <strong>TrailPeak Adventures</strong> Home Page, demonstrating the responsive design across mobile and desktop viewports.
+            </p>
+
+            <div class="wireframes-grid">
+                <!-- Mobile Wireframe -->
+                <figure class="wireframe-box">
+                    <img src="images/wireframe-mobile.svg" alt="Mobile view wireframe sketch for TrailPeak Adventures homepage" width="360" height="820" loading="lazy">
+                    <figcaption>Figure 1: Mobile Viewport Layout (Single-Column Flow)</figcaption>
+                </figure>
+
+                <!-- Desktop Wireframe -->
+                <figure class="wireframe-box">
+                    <img src="images/wireframe-desktop.svg" alt="Desktop view wireframe sketch for TrailPeak Adventures homepage" width="800" height="780" loading="lazy">
+                    <figcaption>Figure 2: Desktop Viewport Layout (Multi-Column Grid &amp; Expanded Navigation)</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentyear"></span> Arthur A. Abreu | Brazil</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

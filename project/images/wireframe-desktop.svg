@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 780" width="100%" height="auto" style="background:#f8fafc; font-family:sans-serif; border:1px solid #cbd5e1; border-radius:8px;">
+  <!-- Desktop Header & Nav -->
+  <rect x="0" y="0" width="800" height="60" fill="#1e3a2f" />
+  <text x="30" y="38" fill="#ffffff" font-size="20" font-weight="bold">[Logo] TrailPeak Adventures</text>
+  <text x="450" y="36" fill="#cbd5e1" font-size="13">Home</text>
+  <text x="510" y="36" fill="#cbd5e1" font-size="13">Trails</text>
+  <text x="570" y="36" fill="#cbd5e1" font-size="13">Gear Guide</text>
+  <text x="660" y="36" fill="#cbd5e1" font-size="13">Contact / Plan Trip</text>
+
+  <!-- Hero Section -->
+  <rect x="30" y="80" width="740" height="200" rx="8" fill="#e2e8f0" stroke="#94a3b8" stroke-dasharray="4" />
+  <text x="400" y="160" text-anchor="middle" fill="#334155" font-size="22" font-weight="bold">[Full-Width Hero Banner &amp; Mountain Scenery]</text>
+  <text x="400" y="190" text-anchor="middle" fill="#64748b" font-size="14">Discover pristine mountain summits, trail guides &amp; expert gear reviews</text>
+  <rect x="320" y="215" width="160" height="38" rx="4" fill="#d97706" />
+  <text x="400" y="239" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="bold">Explore Trails (CTA)</text>
+
+  <!-- Filters & Search Toolbar -->
+  <rect x="30" y="300" width="740" height="45" rx="4" fill="#ffffff" stroke="#cbd5e1" />
+  <text x="50" y="328" fill="#64748b" font-size="12">[Search Trails...]</text>
+  <rect x="380" y="308" width="80" height="28" rx="3" fill="#1e3a2f" />
+  <text x="420" y="326" text-anchor="middle" fill="#ffffff" font-size="11">All Trails</text>
+  <rect x="470" y="308" width="80" height="28" rx="3" fill="#f1f5f9" stroke="#cbd5e1" />
+  <text x="510" y="326" text-anchor="middle" fill="#334155" font-size="11">Easy</text>
+  <rect x="560" y="308" width="80" height="28" rx="3" fill="#f1f5f9" stroke="#cbd5e1" />
+  <text x="600" y="326" text-anchor="middle" fill="#334155" font-size="11">Moderate</text>
+  <rect x="650" y="308" width="80" height="28" rx="3" fill="#f1f5f9" stroke="#cbd5e1" />
+  <text x="690" y="326" text-anchor="middle" fill="#334155" font-size="11">Strenuous</text>
+
+  <!-- Main Section: 3 Columns of Featured Trail Cards -->
+  <text x="30" y="375" fill="#1e3a2f" font-size="16" font-weight="bold">Featured Mountain Trails</text>
+
+  <!-- Card 1 -->
+  <rect x="30" y="390" width="230" height="210" rx="6" fill="#ffffff" stroke="#cbd5e1" />
+  <rect x="30" y="390" width="230" height="100" rx="6" fill="#cbd5e1" />
+  <text x="145" y="445" text-anchor="middle" fill="#64748b" font-size="12">[Trail Image 1]</text>
+  <text x="45" y="515" fill="#1e3a2f" font-size="13" font-weight="bold">Eagle Crest Summit</text>
+  <text x="45" y="535" fill="#64748b" font-size="11">Diff: Moderate | 7.5 mi | 1,850 ft</text>
+  <rect x="45" y="555" width="90" height="26" rx="3" fill="#1e3a2f" />
+  <text x="90" y="572" text-anchor="middle" fill="#ffffff" font-size="10">View Details</text>
+
+  <!-- Card 2 -->
+  <rect x="285" y="390" width="230" height="210" rx="6" fill="#ffffff" stroke="#cbd5e1" />
+  <rect x="285" y="390" width="230" height="100" rx="6" fill="#cbd5e1" />
+  <text x="400" y="445" text-anchor="middle" fill="#64748b" font-size="12">[Trail Image 2]</text>
+  <text x="300" y="515" fill="#1e3a2f" font-size="13" font-weight="bold">Whispering Pines Loop</text>
+  <text x="300" y="535" fill="#64748b" font-size="11">Diff: Easy | 3.2 mi | 420 ft</text>
+  <rect x="300" y="555" width="90" height="26" rx="3" fill="#1e3a2f" />
+  <text x="345" y="572" text-anchor="middle" fill="#ffffff" font-size="10">View Details</text>
+
+  <!-- Card 3 -->
+  <rect x="540" y="390" width="230" height="210" rx="6" fill="#ffffff" stroke="#cbd5e1" />
+  <rect x="540" y="390" width="230" height="100" rx="6" fill="#cbd5e1" />
+  <text x="655" y="445" text-anchor="middle" fill="#64748b" font-size="12">[Trail Image 3]</text>
+  <text x="555" y="515" fill="#1e3a2f" font-size="13" font-weight="bold">Granite Ridge Pass</text>
+  <text x="555" y="535" fill="#64748b" font-size="11">Diff: Strenuous | 12.0 mi | 3,200 ft</text>
+  <rect x="555" y="555" width="90" height="26" rx="3" fill="#1e3a2f" />
+  <text x="600" y="572" text-anchor="middle" fill="#ffffff" font-size="10">View Details</text>
+
+  <!-- Lower Section: 2-Column Sidebar (Weather Widget & Newsletter) -->
+  <rect x="30" y="620" width="360" height="75" rx="6" fill="#ffffff" stroke="#cbd5e1" />
+  <text x="45" y="645" fill="#1e3a2f" font-size="12" font-weight="bold">Live Mountain Weather &amp; Trail Safety</text>
+  <text x="45" y="670" fill="#64748b" font-size="11">[Interactive JS Weather &amp; Conditions Feed]</text>
+
+  <rect x="410" y="620" width="360" height="75" rx="6" fill="#ffffff" stroke="#cbd5e1" />
+  <text x="425" y="645" fill="#1e3a2f" font-size="12" font-weight="bold">Join the Adventure Newsletter</text>
+  <rect x="425" y="655" width="200" height="26" rx="3" fill="#f8fafc" stroke="#cbd5e1" />
+  <text x="435" y="672" fill="#94a3b8" font-size="10">Your email address...</text>
+  <rect x="635" y="655" width="120" height="26" rx="3" fill="#d97706" />
+  <text x="695" y="672" text-anchor="middle" fill="#ffffff" font-size="10" font-weight="bold">Subscribe</text>
+
+  <!-- Footer -->
+  <rect x="0" y="715" width="800" height="65" fill="#1e3a2f" />
+  <text x="400" y="742" text-anchor="middle" fill="#ffffff" font-size="12">© 2026 TrailPeak Adventures | Arthur Abreu</text>
+  <text x="400" y="762" text-anchor="middle" fill="#94a3b8" font-size="11">Site Plan | References | Contact</text>
+</svg>
