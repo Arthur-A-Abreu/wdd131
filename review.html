@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Confirmation - WDD 131</title>
+    <meta name="description" content="Product Review Confirmation page for WDD 131.">
+    <meta name="author" content="Arthur A. Abreu">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/review.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Product Review Confirmation</h1>
+    </header>
+
+    <main>
+        <section class="confirmation-card">
+            <h2>Thank You!</h2>
+            <p>Your product review has been successfully submitted.</p>
+            <p>Total reviews submitted on this browser:</p>
+            <div>
+                <span id="review-count" class="counter-badge">0</span>
+            </div>
+            <div>
+                <a href="form.html" class="action-link">Submit Another Review</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentyear"></span> Arthur A. Abreu | Brazil</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
