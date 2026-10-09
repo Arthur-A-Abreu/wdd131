@@ -1,0 +1,424 @@
+:root {
+    --primary-color: #1e3a2f;
+    --secondary-color: #2d5a47;
+    --accent-color: #d97706;
+    --bg-color: #f4f7f4;
+    --card-bg: #ffffff;
+    --text-color: #1f2937;
+    --border-color: #d1d5db;
+    --font-heading: 'Montserrat', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+/* Header & Navigation */
+header {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo-area img {
+    width: 36px;
+    height: 36px;
+}
+
+.logo-area h1 {
+    font-family: var(--font-heading);
+    font-size: 1.4rem;
+    color: #ffffff;
+}
+
+#menu-toggle {
+    display: none;
+    font-size: 1.8rem;
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+nav.navigation ul {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+}
+
+nav.navigation a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: var(--font-heading);
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav.navigation a:hover,
+nav.navigation a.active {
+    background-color: var(--accent-color);
+}
+
+/* Main Container */
+main {
+    max-width: 960px;
+    margin: 1.5rem auto;
+    padding: 0 1rem;
+}
+
+h2 {
+    font-family: var(--font-heading);
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 0.3rem;
+}
+
+p {
+    margin-bottom: 0.75rem;
+}
+
+/* Hero Section */
+.hero-box {
+    background-color: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.hero-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-text {
+    padding: 1.25rem;
+    text-align: center;
+}
+
+.hero-text h2 {
+    border-bottom: none;
+    margin-bottom: 0.5rem;
+}
+
+.cta-btn {
+    display: inline-block;
+    background-color: var(--accent-color);
+    color: #ffffff;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.6rem 1.25rem;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+}
+
+.cta-btn:hover {
+    background-color: #b45309;
+}
+
+/* Filter Navigation Bar */
+.filter-nav {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.filter-nav a {
+    background-color: #ffffff;
+    color: var(--primary-color);
+    border: 1px solid var(--border-color);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-family: var(--font-heading);
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.filter-nav a:hover,
+.filter-nav a.active {
+    background-color: var(--primary-color);
+    color: #ffffff;
+}
+
+/* Saved info bar */
+.saved-bar {
+    background-color: #ffffff;
+    border: 1px solid var(--border-color);
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Trail Cards Grid */
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.trail-card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+}
+
+.trail-card h3 {
+    font-family: var(--font-heading);
+    color: var(--primary-color);
+    font-size: 1.15rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.trail-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 0.75rem;
+}
+
+.trail-card p {
+    font-size: 0.9rem;
+    margin-bottom: 0.35rem;
+}
+
+.trail-card .label {
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.trail-card .desc {
+    margin-top: 0.5rem;
+    font-style: italic;
+    flex-grow: 1;
+}
+
+.favorite-btn {
+    background-color: var(--secondary-color);
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: var(--font-heading);
+    font-weight: 600;
+    margin-top: 0.75rem;
+    width: 100%;
+}
+
+.favorite-btn:hover {
+    background-color: var(--primary-color);
+}
+
+/* Gear Checklist */
+.checklist-section {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.checklist-section h3 {
+    font-family: var(--font-heading);
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.gear-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.gear-item input {
+    width: 1.1rem;
+    height: 1.1rem;
+}
+
+/* Form Styles */
+.form-card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 1.5rem;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.form-row {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row label {
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+    font-size: 0.95rem;
+}
+
+.req {
+    color: #b91c1c;
+}
+
+.form-row input,
+.form-row select,
+.form-row textarea {
+    padding: 0.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 0.95rem;
+}
+
+.submit-btn {
+    background-color: var(--accent-color);
+    color: #ffffff;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.submit-btn:hover {
+    background-color: #b45309;
+}
+
+.success-msg {
+    color: #15803d;
+    background-color: #dcfce7;
+    border: 1px solid #86efac;
+    padding: 0.75rem;
+    border-radius: 4px;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+/* References Table */
+table.ref-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    margin: 1rem 0;
+}
+
+table.ref-table th,
+table.ref-table td {
+    border: 1px solid var(--border-color);
+    padding: 0.6rem 0.8rem;
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+table.ref-table th {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    font-family: var(--font-heading);
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin-bottom: 0.35rem;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #fef08a;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#lastModified {
+    color: #fed7aa;
+    font-size: 0.8rem;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 650px) {
+    #menu-toggle {
+        display: block;
+    }
+
+    nav.navigation {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: var(--secondary-color);
+        z-index: 10;
+    }
+
+    nav.navigation.open {
+        display: block;
+    }
+
+    nav.navigation ul {
+        flex-direction: column;
+        padding: 0.5rem 0;
+    }
+
+    nav.navigation a {
+        display: block;
+        text-align: center;
+        padding: 0.75rem;
+    }
+}

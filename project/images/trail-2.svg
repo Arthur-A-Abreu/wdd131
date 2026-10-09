@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="auto">
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bfdbfe" />
+      <stop offset="100%" stop-color="#ecfdf5" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#sky2)" />
+  <circle cx="120" cy="90" r="40" fill="#fef08a" opacity="0.9" />
+  <!-- Distant Hill -->
+  <path d="M0 400 L0 260 Q180 200 340 240 T600 220 L600 400 Z" fill="#65a30d" opacity="0.4" />
+  <!-- Pine Trees Layer -->
+  <g fill="#2d5a47">
+    <polygon points="60,340 85,250 110,340" />
+    <polygon points="90,350 115,260 140,350" />
+    <polygon points="130,340 160,230 190,340" />
+    <polygon points="210,360 235,270 260,360" />
+    <polygon points="320,350 350,240 380,350" />
+    <polygon points="380,340 410,230 440,340" />
+    <polygon points="460,360 490,250 520,360" />
+    <polygon points="510,350 540,240 570,350" />
+  </g>
+  <!-- Foreground Forest Floor -->
+  <path d="M0 400 L0 330 Q220 300 400 330 T600 320 L600 400 Z" fill="#1e3a2f" />
+  <!-- Winding Path -->
+  <path d="M180 400 Q240 360 280 340 T360 300" stroke="#f59e0b" stroke-width="7" fill="none" stroke-linecap="round" />
+  <text x="30" y="375" fill="#ffffff" font-family="'Montserrat', sans-serif" font-size="22" font-weight="bold">Whispering Pines Loop</text>
+</svg>

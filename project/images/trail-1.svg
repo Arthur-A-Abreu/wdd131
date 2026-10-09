@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="auto">
+  <defs>
+    <linearGradient id="sky1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fdba74" />
+      <stop offset="50%" stop-color="#fed7aa" />
+      <stop offset="100%" stop-color="#e0e7ff" />
+    </linearGradient>
+    <linearGradient id="mtn1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#sky1)" />
+  <circle cx="480" cy="120" r="45" fill="#fef08a" opacity="0.85" />
+  <!-- Far mountains -->
+  <polygon points="50,400 220,160 380,400" fill="#64748b" opacity="0.6" />
+  <polygon points="200,400 390,120 560,400" fill="#475569" opacity="0.7" />
+  <polygon points="340,150 390,120 440,150 415,170 390,160 365,170" fill="#ffffff" opacity="0.9" />
+  <!-- Main Peak -->
+  <polygon points="-50,400 160,180 340,400" fill="url(#mtn1)" />
+  <polygon points="120,210 160,180 200,210 180,230 160,220 140,230" fill="#ffffff" opacity="0.95" />
+  <!-- Forest layer -->
+  <path d="M0 400 L0 320 C80 310, 160 340, 240 325 C320 310, 420 335, 600 310 L600 400 Z" fill="#1e3a2f" />
+  <!-- Trail Path -->
+  <path d="M300 400 Q260 360 210 335 T170 300" stroke="#d97706" stroke-width="6" fill="none" stroke-linecap="round" stroke-dasharray="10 6" />
+  <text x="30" y="375" fill="#ffffff" font-family="'Montserrat', sans-serif" font-size="22" font-weight="bold">Eagle Crest Summit</text>
+</svg>

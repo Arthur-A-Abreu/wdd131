@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrailPeak Adventures - Home</title>
+    <meta name="description" content="TrailPeak Adventures home page for finding hiking trails and mountain guides.">
+    <meta name="author" content="Arthur A. Abreu">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/project.css">
+    <script src="scripts/main.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo-area">
+            <img src="images/logo.svg" alt="TrailPeak Logo" width="36" height="36">
+            <h1>TrailPeak Adventures</h1>
+        </div>
+        <button id="menu-toggle" aria-label="Toggle menu">☰</button>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="trails.html">Trails</a></li>
+                <li><a href="gear.html">Gear Guide</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-box">
+            <img src="images/hero-mountain.svg" alt="Mountain landscape at sunrise" width="800" height="300">
+            <div class="hero-text">
+                <h2>Welcome to TrailPeak Adventures</h2>
+                <p>Your guide for discovering scenic hiking trails, mountain passes, and packing the right gear for your outdoor adventures.</p>
+                <a href="trails.html" class="cta-btn">Explore Trails</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section>
+            <h2>About Our Project</h2>
+            <p>TrailPeak Adventures was created to help hikers of all experience levels find reliable trail information. Whether you are looking for an easy afternoon walk or a strenuous alpine summit, our guides provide distance, elevation gain, and estimated hike times.</p>
+        </section>
+
+        <!-- Featured Trails -->
+        <section>
+            <h2>Featured Trails</h2>
+            <p>Check out our featured mountain trails below:</p>
+            <div id="trail-cards" class="cards-grid">
+                <!-- Injected by JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Arthur A. Abreu | Brazil</p>
+        <p>
+            <a href="siteplan.html">Site Plan</a> | 
+            <a href="references.html">References</a>
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+      
+</body>
+</html>

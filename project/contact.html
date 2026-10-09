@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - TrailPeak Adventures</title>
+    <meta name="description" content="Contact TrailPeak Adventures to plan your hiking trip.">
+    <meta name="author" content="Arthur A. Abreu">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/project.css">
+    <script src="scripts/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo-area">
+            <img src="images/logo.svg" alt="TrailPeak Logo" width="36" height="36">
+            <h1>TrailPeak Adventures</h1>
+        </div>
+        <button id="menu-toggle" aria-label="Toggle menu">☰</button>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="trails.html">Trails</a></li>
+                <li><a href="gear.html">Gear Guide</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contact &amp; Trip Inquiry</h2>
+        <p>Fill out the form below to ask questions about trails or plan a guided hike. Fields marked with <span class="req">*</span> are required.</p>
+
+        <section class="form-card">
+            <form id="trip-form" method="get" action="contact.html">
+                <div class="form-row">
+                    <label for="name">Your Name <span class="req">*</span></label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="email">Email Address <span class="req">*</span></label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="date">Planned Hike Date <span class="req">*</span></label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="trail">Select Trail <span class="req">*</span></label>
+                    <select id="trail" name="trail" required>
+                        <option value="" disabled selected>Choose a trail...</option>
+                        <option value="Eagle Crest Summit">Eagle Crest Summit (Moderate)</option>
+                        <option value="Whispering Pines Loop">Whispering Pines Loop (Easy)</option>
+                        <option value="Granite Ridge Pass">Granite Ridge Pass (Strenuous)</option>
+                        <option value="Crystal Lake Trail">Crystal Lake Trail (Moderate)</option>
+                        <option value="Cascade Falls Path">Cascade Falls Path (Easy)</option>
+                        <option value="Timberline Alpine Ridge">Timberline Alpine Ridge (Strenuous)</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <label for="comments">Questions or Comments</label>
+                    <textarea id="comments" name="comments" rows="4"></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+
+            <div id="confirmation-message"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Arthur A. Abreu | Brazil</p>
+        <p>
+            <a href="siteplan.html">Site Plan</a> | 
+            <a href="references.html">References</a>
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

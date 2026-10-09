@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gear Guide - TrailPeak Adventures</title>
+    <meta name="description" content="Hiking gear guide and interactive packing checklist.">
+    <meta name="author" content="Arthur A. Abreu">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/project.css">
+    <script src="scripts/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo-area">
+            <img src="images/logo.svg" alt="TrailPeak Logo" width="36" height="36">
+            <h1>TrailPeak Adventures</h1>
+        </div>
+        <button id="menu-toggle" aria-label="Toggle menu">☰</button>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="trails.html">Trails</a></li>
+                <li><a href="gear.html" class="active">Gear Guide</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Hiking Gear &amp; Essentials</h2>
+        <p>Being prepared is critical for outdoor safety. Use this packing checklist before heading to the mountain. Your checked items are saved automatically in localStorage.</p>
+
+        <div class="saved-bar">
+            <span>Items Packed: <span id="packed-count">0</span> / 8</span>
+            <button type="button" id="reset-gear" style="margin-left: 1rem; padding: 0.3rem 0.6rem; cursor: pointer;">Reset List</button>
+        </div>
+
+        <section class="checklist-section">
+            <h3>Navigation &amp; Safety</h3>
+            <label class="gear-item" for="item-map">
+                <input type="checkbox" id="item-map" class="gear-check">
+                <span>Topographic Map and Compass</span>
+            </label>
+            <label class="gear-item" for="item-light">
+                <input type="checkbox" id="item-light" class="gear-check">
+                <span>Headlamp / Flashlight with Extra Batteries</span>
+            </label>
+            <label class="gear-item" for="item-firstaid">
+                <input type="checkbox" id="item-firstaid" class="gear-check">
+                <span>Basic First Aid Kit</span>
+            </label>
+            <label class="gear-item" for="item-whistle">
+                <input type="checkbox" id="item-whistle" class="gear-check">
+                <span>Emergency Whistle</span>
+            </label>
+        </section>
+
+        <section class="checklist-section">
+            <h3>Food, Water &amp; Clothing</h3>
+            <label class="gear-item" for="item-water">
+                <input type="checkbox" id="item-water" class="gear-check">
+                <span>At least 2 Liters of Water</span>
+            </label>
+            <label class="gear-item" for="item-food">
+                <input type="checkbox" id="item-food" class="gear-check">
+                <span>High-Energy Snacks (Trail Mix, Energy Bars)</span>
+            </label>
+            <label class="gear-item" for="item-jacket">
+                <input type="checkbox" id="item-jacket" class="gear-check">
+                <span>Waterproof Shell Jacket</span>
+            </label>
+            <label class="gear-item" for="item-sun">
+                <input type="checkbox" id="item-sun" class="gear-check">
+                <span>Sun Protection (Sunscreen and Sunglasses)</span>
+            </label>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Arthur A. Abreu | Brazil</p>
+        <p>
+            <a href="siteplan.html">Site Plan</a> | 
+            <a href="references.html">References</a>
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

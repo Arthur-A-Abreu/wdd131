@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="auto">
+  <defs>
+    <linearGradient id="lakeSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bae6fd" />
+      <stop offset="100%" stop-color="#e0f2fe" />
+    </linearGradient>
+    <linearGradient id="lakeWater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#lakeSky)" />
+  <!-- Mountains in background -->
+  <polygon points="40,300 180,140 320,300" fill="#475569" />
+  <polygon points="150,165 180,140 210,165 195,180 180,175 165,180" fill="#ffffff" opacity="0.9" />
+  <polygon points="260,300 400,100 540,300" fill="#334155" />
+  <polygon points="360,140 400,100 440,140 420,160 400,150 380,160" fill="#ffffff" opacity="0.9" />
+  <!-- Alpine Lake -->
+  <ellipse cx="300" cy="310" rx="280" ry="70" fill="url(#lakeWater)" />
+  <ellipse cx="300" cy="305" rx="240" ry="50" fill="#38bdf8" opacity="0.4" />
+  <!-- Shore & Trail -->
+  <path d="M0 400 L0 340 Q150 310 300 340 T600 330 L600 400 Z" fill="#1e3a2f" />
+  <path d="M50 400 Q180 360 300 370 T550 350" stroke="#f59e0b" stroke-width="6" fill="none" />
+  <text x="30" y="375" fill="#ffffff" font-family="'Montserrat', sans-serif" font-size="22" font-weight="bold">Crystal Lake Trail</text>
+</svg>

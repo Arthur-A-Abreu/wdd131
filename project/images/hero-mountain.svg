@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="100%" height="auto">
+  <defs>
+    <linearGradient id="heroSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="45%" stop-color="#1e3a2f" />
+      <stop offset="85%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#fed7aa" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="500" fill="url(#heroSky)" />
+  <!-- Morning Sun -->
+  <circle cx="850" cy="300" r="70" fill="#fef08a" opacity="0.95" />
+  <!-- Distant Alpine Peaks -->
+  <polygon points="100,500 350,180 600,500" fill="#334155" opacity="0.7" />
+  <polygon points="290,220 350,180 410,220 380,240 350,230 320,240" fill="#ffffff" opacity="0.9" />
+  <polygon points="450,500 720,130 990,500" fill="#1e293b" opacity="0.85" />
+  <polygon points="650,180 720,130 790,180 760,205 720,195 680,205" fill="#ffffff" opacity="0.95" />
+  <polygon points="800,500 1020,200 1200,500" fill="#334155" opacity="0.75" />
+  <!-- Middle Range & Pine Silhouettes -->
+  <path d="M0 500 L0 390 Q300 320 600 370 T1200 340 L1200 500 Z" fill="#1e3a2f" />
+  <path d="M0 500 L0 430 Q400 380 800 420 T1200 400 L1200 500 Z" fill="#13271f" />
+</svg>

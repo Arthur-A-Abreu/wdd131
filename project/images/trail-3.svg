@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="auto">
+  <defs>
+    <linearGradient id="sky3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#475569" />
+      <stop offset="60%" stop-color="#94a3b8" />
+      <stop offset="100%" stop-color="#f8fafc" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#sky3)" />
+  <!-- Massive Granite Cliffs -->
+  <polygon points="0,400 0,160 140,110 240,220 380,80 500,200 600,140 600,400" fill="#334155" />
+  <!-- Snow and Shadows -->
+  <polygon points="110,140 140,110 180,160 150,170" fill="#ffffff" opacity="0.8" />
+  <polygon points="340,130 380,80 430,140 390,160" fill="#ffffff" opacity="0.8" />
+  <polygon points="0,400 80,310 260,400" fill="#1e293b" />
+  <polygon points="300,400 450,290 600,400" fill="#1e293b" />
+  <!-- Rugged Path with Cairn -->
+  <path d="M120 400 L240 330 L320 280 L380 230" stroke="#f59e0b" stroke-width="5" fill="none" stroke-dasharray="8 6" />
+  <!-- Rock Cairn -->
+  <ellipse cx="260" cy="340" rx="14" ry="5" fill="#64748b" />
+  <ellipse cx="260" cy="334" rx="10" ry="4" fill="#94a3b8" />
+  <ellipse cx="260" cy="328" rx="6" ry="3" fill="#cbd5e1" />
+  <text x="30" y="375" fill="#ffffff" font-family="'Montserrat', sans-serif" font-size="22" font-weight="bold">Granite Ridge Pass</text>
+</svg>

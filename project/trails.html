@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiking Trails - TrailPeak Adventures</title>
+    <meta name="description" content="Browse and filter mountain hiking trails by difficulty level.">
+    <meta name="author" content="Arthur A. Abreu">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/project.css">
+    <script src="scripts/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo-area">
+            <img src="images/logo.svg" alt="TrailPeak Logo" width="36" height="36">
+            <h1>TrailPeak Adventures</h1>
+        </div>
+        <button id="menu-toggle" aria-label="Toggle menu">☰</button>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="trails.html" class="active">Trails</a></li>
+                <li><a href="gear.html">Gear Guide</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Explore Hiking Trails</h2>
+        <p>Use the filter buttons below to sort trails by difficulty level. You can also save trails to your browser favorites using localStorage.</p>
+
+        <!-- Filter Buttons -->
+        <div class="filter-nav">
+            <a href="#" id="all-trails" class="active">All Trails</a>
+            <a href="#" id="easy-trails">Easy</a>
+            <a href="#" id="moderate-trails">Moderate</a>
+            <a href="#" id="strenuous-trails">Strenuous</a>
+        </div>
+
+        <!-- Saved Trails Counter (localStorage) -->
+        <div class="saved-bar">
+            <span>Saved Trails in LocalStorage: <span id="saved-count">0</span></span>
+        </div>
+
+        <!-- Trail Cards -->
+        <div id="trail-cards" class="cards-grid">
+            <!-- Injected by JavaScript -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Arthur A. Abreu | Brazil</p>
+        <p>
+            <a href="siteplan.html">Site Plan</a> | 
+            <a href="references.html">References</a>
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

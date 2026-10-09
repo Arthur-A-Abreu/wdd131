@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="auto">
+  <defs>
+    <linearGradient id="ridgeSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f43f5e" />
+      <stop offset="40%" stop-color="#fb923c" />
+      <stop offset="80%" stop-color="#fef08a" />
+      <stop offset="100%" stop-color="#e0f2fe" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#ridgeSky)" />
+  <!-- Sunset Sun -->
+  <circle cx="300" cy="220" r="50" fill="#fef08a" opacity="0.9" />
+  <!-- High Mountain Ridge -->
+  <polygon points="0,400 0,260 120,200 240,240 380,150 500,210 600,180 600,400" fill="#1e293b" />
+  <polygon points="340,180 380,150 420,180 380,195" fill="#f8fafc" opacity="0.8" />
+  <!-- Alpine Ridge Trail with Hiker Silhouette -->
+  <path d="M0 400 L0 320 Q200 300 360 260 L600 280 L600 400 Z" fill="#0f172a" />
+  <!-- Hiker Silhouette -->
+  <circle cx="360" cy="242" r="4" fill="#d97706" />
+  <line x1="360" y1="246" x2="360" y2="258" stroke="#d97706" stroke-width="3" />
+  <line x1="360" y1="258" x2="355" y2="268" stroke="#d97706" stroke-width="2" />
+  <line x1="360" y1="258" x2="365" y2="268" stroke="#d97706" stroke-width="2" />
+  <line x1="353" y1="248" x2="367" y2="268" stroke="#d97706" stroke-width="2" />
+  <text x="30" y="375" fill="#ffffff" font-family="'Montserrat', sans-serif" font-size="22" font-weight="bold">Timberline Alpine Ridge</text>
+</svg>
